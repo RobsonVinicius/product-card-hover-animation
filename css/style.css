@@ -69,3 +69,17 @@ body {
   transform: rotateY(180deg) translate(-50%, -50%) rotate(25deg);
   width: 270px;
 }
+
+.container .card .contentBox {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10
+}
+
+.container .card:hover .contentBox {
+  height: 210px
+}
