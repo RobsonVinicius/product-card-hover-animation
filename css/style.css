@@ -83,3 +83,10 @@ body {
 .container .card:hover .contentBox {
   height: 210px
 }
+
+.container .card h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff
+}
