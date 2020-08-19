@@ -113,3 +113,12 @@ body {
 .container .card:hover .color {
   transition-delay: 0.7s;
 }
+
+.container .card h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
