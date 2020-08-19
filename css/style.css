@@ -13,3 +13,16 @@ body {
   min-height: 100vh;
   background: #131313;
 }
+
+.container {
+  position: relative;
+}
+
+.container .card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
