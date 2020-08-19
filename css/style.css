@@ -50,3 +50,12 @@ body {
   top: 37%;
   left: -34%;
 }
+
+.container .card .imgBox {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;  
+}
