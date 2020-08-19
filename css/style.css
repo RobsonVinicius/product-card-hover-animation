@@ -36,4 +36,9 @@ body {
   height: 100%;
   background: #287cdc;
   clip-path: circle(150px at 80% 20%);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover::before {
+  clip-path: circle(300px at 80% -20%)
 }
