@@ -122,3 +122,19 @@ body {
   letter-spacing: 2px;
   margin-right: 10px;
 }
+
+.size span {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
