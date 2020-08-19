@@ -42,3 +42,11 @@ body {
 .container .card:hover::before {
   clip-path: circle(300px at 80% -20%)
 }
+
+.container .card::after {
+  content: url(../img/olympikus-logo.png);
+  opacity: 0.3;
+  position: absolute;
+  top: 37%;
+  left: -34%;
+}
