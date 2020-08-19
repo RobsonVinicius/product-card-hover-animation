@@ -20,8 +20,8 @@ body {
 
 .container .card {
   position: relative;
-  width: 320px;
-  height: 450px;
+  width: 271px;
+  height: 479px;
   background: #232323;
   border-radius: 20px;
   overflow: hidden;
@@ -48,8 +48,8 @@ body {
   content: url(../img/olympikus-logo.png);
   opacity: 0.1;
   position: absolute;
-  top: 37%;
-  left: -34%;
+  top: 42%;
+  left: -46%;
   z-index: 100
 }
 
@@ -65,9 +65,9 @@ body {
 .container .card .imgBox img {  
   position: absolute;
   top: 44%;
-  left: -38%;
+  left: -48%;
   transform: rotateY(180deg) translate(-50%, -50%) rotate(25deg);
-  width: 270px;
+  width: 260px;
 }
 
 .container .card .contentBox {
@@ -87,8 +87,10 @@ body {
 .container .card h2 {
   position: relative;
   font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.3rem;
   letter-spacing: 1px;
-  color: #fff
+  color: #fff;  
 }
 
 .container .card .size,
@@ -141,13 +143,4 @@ body {
 .size span:hover {
   background: #287cdc;
   color: #fff;
-}
-
-.container .card .contentBox .color span {
-  width: 20px;
-  height: 20px;
-  background: #287cdc;
-  border-radius: 4px;
-  margin: 0 5px;
-  cursor: pointer;
 }
