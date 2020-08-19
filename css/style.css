@@ -90,3 +90,26 @@ body {
   letter-spacing: 1px;
   color: #fff
 }
+
+.container .card .size,
+.container .card .color {
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container .card:hover .size,
+.container .card:hover .color {
+  opacity: 1;
+  visibility: visible;
+}
+
+.container .card:hover .size {
+  transition-delay: 0.5s;
+}
+
+.container .card:hover .color {
+  transition-delay: 0.7s;
+}
