@@ -62,7 +62,7 @@ body {
   height: 220px;  
 }
 
-.container .card .imgBox img {
+.container .card .imgBox img {  
   position: absolute;
   top: 44%;
   left: -38%;
@@ -126,8 +126,8 @@ body {
 .size span {
   width: 26px;
   height: 26px;
-  line-height: 26px;
   text-align: center;
+  line-height: 26px;  
   font-size: 14px;
   display: inline-block;
   color: #111;
@@ -136,5 +136,18 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transition: 0.5s;
+}
 
+.size span:hover {
+  background: #287cdc;
+  color: #fff;
+}
+
+.container .card .contentBox .color span {
+  width: 20px;
+  height: 20px;
+  background: #287cdc;
+  border-radius: 4px;
+  margin: 0 5px;
+  cursor: pointer;
 }
