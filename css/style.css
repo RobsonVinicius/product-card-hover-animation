@@ -61,6 +61,7 @@ body {
   z-index: 10000;
   width: 100%;
   height: 220px;  
+  transition: 0.5s ease-in-out;
 }
 
 .container .card:hover .imgBox {
@@ -150,7 +151,7 @@ body {
   transition: 0.5s;
 }
 
-.size span:hover {
+.container .card .size span:hover {
   background: #287cdc;
   color: #fff;
 }
