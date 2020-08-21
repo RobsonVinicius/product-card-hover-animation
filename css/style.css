@@ -50,8 +50,7 @@ body {
   opacity: 0.1;
   position: absolute;
   top: 50%;
-  left: -42%;
-  z-index: 100
+  left: -42%;  
 }
 
 .container .card .imgBox {
@@ -68,7 +67,6 @@ body {
   top: 10%;
   transform: translate(0%);
   transition: 0.5s;
-
 }
 
 .container .card .imgBox img {  
@@ -151,7 +149,7 @@ body {
   transition: 0.5s;
 }
 
-.container .card .size span:hover {
+.size span:hover {
   background: #287cdc;
   color: #fff;
 }
@@ -169,13 +167,20 @@ body {
   background: #0f5aaf;  
 }
 
-
 .color span:nth-child(3) {
   background: #ff0;
 }
 
+.color span:nth-child(3):hover {
+  background: #c9bb02;
+}
+
 .color span:nth-child(4) {
   background: #e91e63;
+}
+
+.color span:nth-child(4):hover {
+  background: #ad1749;
 }
 
 .card .contentBox a {
@@ -187,11 +192,16 @@ body {
   color: #111;
   opacity: 0;
   transform: translateY(50px);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .card:hover .contentBox a { 
   opacity: 1;
   transform: translate(0px);
-  transition-delay: 0.75s;
+  /* transition-delay: 0.2s;   */
+}
+
+.card .contentBox a:hover { 
+  background: #0f5aaf;  
+  color: #fff;
 }
